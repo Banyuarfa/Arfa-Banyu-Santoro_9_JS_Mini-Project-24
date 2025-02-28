@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.radio-group {
+  display: flex;
+  gap: 1rem;
+}
+
+table {
+  width: fit-content;
+}
+#table tr,
+#table td {
+  border: 1px black solid;
+  padding: 0.25rem;
+}
+#table {
+  width: 80vw;
+}
+.delete {
+  background-color: rgb(255, 142, 142);
+}
+.edit {
+  background-color: rgb(247, 255, 172);
+}
+button {
+  border: none;
+  padding: 0.25rem;
+  border-radius: 2px;
+  margin-right: 0.25rem;
+}
